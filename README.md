@@ -7,18 +7,20 @@ Several key concepts are expected to be understood when going through this tutor
 - Linear Algebra
 - Partial Derivatives
 - Statistical Distributions
+
 In addition to these mathematical backgrounds, it is also important to have a decent understanding of programming. In this tutorial we make use of python and its very robust library support. Specifically, we use:
 - Pytorch
 - Numpy
 - Matplotlib
-- Jupyter Notebooks
-        - While jupyter notebooks are nice, they are mearly used as a teaching tool. **Note: Github has issues showing all of the markdown (especially LaTeX formatting) in Jupyter Notebook sometimes. Because of this, we recommend forking or cloning the repo and firing it up on your local machine instead to see all of the markdown.** This notebook was also built using python virtual environments so installing different variants would not pollute the namespace.
+- Jupyter Notebooks - While jupyter notebooks are nice, they are mearly used as a teaching tool. **Note: Github has issues showing all of the markdown (especially LaTeX formatting) in Jupyter Notebook sometimes. Because of this, we recommend forking or cloning the repo and firing it up on your local machine instead to see all of the markdown.** This notebook was also built using python virtual environments so installing different variants would not pollute the namespace.
+
 Finally, as deep learning has grown and expanded, it is hoped that a basic understanding of some machine learning techniques are understood. Upon writing this tutorial for a class, the previously taught concepts include:
 - Logistic Regression
 - PCA Dimensionality Reduction
 - Linear Regression
 - Loss Function Convexivity
 - Cross Entropy
+
 These are not necessarily utilized in the lessons here, but they are background knowledge the class had before going into this tutorial.
 
 
