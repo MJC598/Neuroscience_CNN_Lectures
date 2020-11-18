@@ -15,7 +15,7 @@ In addition to these mathematical backgrounds, it is also important to have a de
 - Jupyter Notebooks - While jupyter notebooks are nice, they are mearly used as a teaching tool. **Note: Github has issues showing all of the markdown (especially LaTeX formatting) in Jupyter Notebook sometimes. Because of this, we recommend forking or cloning the repo and firing it up on your local machine instead to see all of the markdown.** This notebook was also built using python virtual environments so installing different variants would not pollute the namespace.
 
 Finally, as deep learning has grown and expanded, it is hoped that a basic understanding of some machine learning techniques are understood. Upon writing this tutorial for a class, the previously taught concepts include:
-- Logistic Regression
+- Multinomial Logistic Regression
 - PCA Dimensionality Reduction
 - Linear Regression
 - Loss Function Convexivity
@@ -52,7 +52,8 @@ Overall, this tutorial covers:
 6. Go over some simple activation function differences in [Activations](Activations.ipynb). These are very basic and just a PyTorch implementation. This does not need to be a standalone component unless you want to get into the math. Otherwise, it is just important that these ideas and terms have been discussed. 
 7. Go over a couple examples of various CNNs. You don't need to explain in detail since they haven't gotten things like residuals quite yet, but show how these networks can be applied to various datasets in [Pytorch through transfer learning](https://pytorch.org/docs/stable/torchvision/models.html). [Here](https://towardsdatascience.com/illustrated-10-cnn-architectures-95d78ace614d) is a good article covering 10 different ConvNets.
     - Finish up the second part of [Quiz 1](Quiz&#32;1.ipynb), Specific ConvNet Questions.
-8. Finally, cover the newer concepts you want to, whether it be dynamic kernels, residuals, LSTM-FCNs, etc. In this class, we made it residuals so that we could work towards ResNet as a basis for ConvNets to work on during the final projects. There is obviously a lot of room to grow, and hopefully by this point they have worked through the PyTorch tutorials and can begin messing around with them. 
+8. Softmax, Batch Normalization, and Convolutional Exercises. Should be a fairly easy day as logistic regression frames the Softmax, Batch Normalization is a basic idea if batches are understood, and convolutions have been worked on throughout the entire series. Once this is understood, then perhaps discuss a bit of the residual blocks in ResNet (have them start by looking at what it added to the architecture of VGG and explain what they notice).
+9. Finally, cover the newer concepts you want to, whether it be dynamic kernels, residuals, LSTM-FCNs, etc. In this class, we made it residuals so that we could work towards ResNet as a basis for ConvNets to work on during the final projects. There is obviously a lot of room to grow, and hopefully by this point they have worked through the PyTorch tutorials and can begin messing around with them. 
 
 Spend as much time as necessary on each step, and don't be afraid to go back to a subject multiple times. Sometimes it takes it, and while its not difficult to understand once you've done it, first learning it can be a pain. 
 
@@ -60,3 +61,4 @@ Spend as much time as necessary on each step, and don't be afraid to go back to 
 - [Quiz 1](Quiz&#32;1.ipynb) is used to evaluate everything from 1-4. If something isn't clicking, please re-iterate the point. The main exercise is a simple perceptron forward pass and backprop walkthrough.
 - [Coursera Course](https://www.coursera.org/learn/convolutional-neural-networks). Very good at explaining convolutions and how feature extraction can work. Used as a supplementary tool.
 - [PyTorch tutorial](https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html). This is really good at getting them up and running. They should be doing this a lesson or two each day (takes maybe 5-10 minutes to read through and execute the code) just to stay up to date.
+- [Convolutional Exerices](Convolutional&#32;Exercises,&#32;Softmax,&#32;and&#32;Batch&#32;Normalization.ipynb) has a quick exercise to convolve an image with a kernal.
