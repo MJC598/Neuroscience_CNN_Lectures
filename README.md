@@ -61,4 +61,4 @@ Spend as much time as necessary on each step, and don't be afraid to go back to 
 - [Quiz 1](Quiz&#32;1.ipynb) is used to evaluate everything from 1-4. If something isn't clicking, please re-iterate the point. The main exercise is a simple perceptron forward pass and backprop walkthrough.
 - [Coursera Course](https://www.coursera.org/learn/convolutional-neural-networks). Very good at explaining convolutions and how feature extraction can work. Used as a supplementary tool.
 - [PyTorch tutorial](https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html). This is really good at getting them up and running. They should be doing this a lesson or two each day (takes maybe 5-10 minutes to read through and execute the code) just to stay up to date.
-- [Convolutional Exerices](Convolutional&#32;Exercises,&#32;Softmax,&#32;and&#32;Batch&#32;Normalization.ipynb) has a quick exercise to convolve an image with a kernal.
+- [Convolutional Exercises](Convolutional&#32;Exercises,&#32;Softmax,&#32;and&#32;Batch&#32;Norm.ipynb) has a quick exercise to convolve an image with a kernal.
